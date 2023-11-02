@@ -1,0 +1,19 @@
+//calculate the sum of five numbers and their squares and display result using loop
+#include <stdio.h>
+int main() {
+    int i;
+    double num, sum_numbers = 0, sum_squares = 0;
+
+    for (i = 0; i < 5; i++) {
+        printf("Enter a number: ");
+        scanf("%lf", &num);
+
+        sum_numbers += num;
+        sum_squares += num * num;
+    }
+
+    printf("Sum of the numbers: %.2lf\n", sum_numbers);
+    printf("Sum of the squares: %.2lf\n", sum_squares);
+
+    return 0;
+}
