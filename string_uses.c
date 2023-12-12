@@ -1,7 +1,5 @@
 #include<stdio.h>
-
 #include<conio.h>
-
 #include<string.h>
 void main(){
 char string1[25],string2[25];
